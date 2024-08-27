@@ -1,3 +1,16 @@
-body {
+/* HTML Structure Styling */
+
+:root {
+    background-color: #ecf5ff;
+    font-size: 62%;
+}
+
+/* Body Styling */
+
+* {
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #222;
 }
