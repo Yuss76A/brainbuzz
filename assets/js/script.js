@@ -71,3 +71,17 @@ answerResponses.forEach((response) => {
     const number = choice.dataset['number'];
     response.innerText = currentQuestion['response' + number];
 });
+
+remainingQuestions.splice(randomIndex, 1);
+isAcceptingAnswers = true;
+
+
+answerResponses.forEach((reponse) => {
+    response.addEventListener('click', (event) => {
+        if (!isAcceptingAnswers) return;
+
+        isAcceptingAnswers = false;
+        const chosenOption = event.target;
+        const chosenAnswer = chosenOption.dataset['number'];
+    });
+});
