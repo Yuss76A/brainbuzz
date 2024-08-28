@@ -4,7 +4,16 @@
     display: flex;
     margin-bottom: 1rem;
     width: 100%;
-    font-size: 2rem;
-    border: 0.3rem dashed rgb(0, 0, 0);
+    font-size: 3rem;
+    border: 0.3rem solid rgba(0, 0, 0);
     background-color: #f9f9f9;
+}
+
+/* Hover Styling */
+
+.response-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.5rem 0 rgba(86, 185, 235, 0.6);
+    transform: translateY(-0.2rem);
+    transition: transform 200ms;
 }
