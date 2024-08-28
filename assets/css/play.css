@@ -17,3 +17,15 @@
     transform: translateY(-0.2rem);
     transition: transform 200ms;
 }
+
+/* Make response-pretext and text elements look uniform */
+
+.response-pretext {
+    padding: 1.2rem 2rem;
+    background-color: #f0b27a;
+    color: #fff;
+}
+
+.response-text {
+    padding: 1.5rem;
+}
