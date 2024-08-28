@@ -49,3 +49,25 @@ let questions = [{
 
 const BONUS_POINTS = 15;
 const TOTAL_QUESTIONS = 10;
+
+initGame = () => {
+    questionCount = 0;
+    currentScore = 0;
+    remainingQuestion;
+    s = [...questions];
+    loadNewQuestion()
+};
+
+loadNewQuestion = () => {
+    if (remainingQuestions.length === 0 || questionCount >= TOTAL_QUESTIONS)
+        return window.location, assign('/end.html');
+}
+questionCount++;
+const randomIndex = Math.floor(Math.random() * remainingQuestions.length);
+currentQuestion = remainingQuestions[randomIndex];
+questionElement.innerText = currentQuestion.question;
+
+answerResponses.forEach((response) => {
+    const number = choice.dataset['number'];
+    response.innerText = currentQuestion['response' + number];
+});
