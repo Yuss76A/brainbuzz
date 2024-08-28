@@ -1,0 +1,10 @@
+/* Styling the Container */
+
+.response-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 2rem;
+    border: 0.3rem dashed rgb(0, 0, 0);
+    background-color: #f9f9f9;
+}
