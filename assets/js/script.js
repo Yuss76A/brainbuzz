@@ -17,38 +17,38 @@ let questions = [{
         answer: 3,
     },
     {
-        question: '',
-        option1: '',
-        option2: '',
-        option3: '',
-        option4: '',
-        option5: '',
-        answer: 1,
+        question: 'Which football club has won the most UEFA Champions League titles?',
+        option1: 'Barcelona',
+        option2: 'Bayern Munich',
+        option3: 'AC Milan',
+        option4: 'Liverpool',
+        option5: 'Real Madrid',
+        answer: 5,
     },
     {
-        question: '',
-        option1: '',
-        option2: '',
-        option3: '',
-        option4: '',
-        option5: '',
-        answer: 1,
+        question: 'Who holds the record for the most goals scored in a single UEFA Champions League season?',
+        option1: 'Lionel Messi',
+        option2: 'Cristiano Ronaldo',
+        option3: 'Robert Lewandowski',
+        option4: 'Karim Bnezema',
+        option5: 'Erling Haaland',
+        answer: 2,
     },
     {
-        question: '',
-        option1: '',
-        option2: '',
-        option3: '',
-        option4: '',
-        option5: '',
-        answer: 1,
+        question: 'Which player has made the most appearances in UEFA Champions League history?',
+        option1: 'Iker Casillas',
+        option2: 'Xavi',
+        option3: 'Cristiano Ronaldo',
+        option4: 'Lionel Messi',
+        option5: 'Ryan Giggs',
+        answer: 3,
     },
 ];
 
 // Fixed Values
 
 const BONUS_POINTS = 15;
-const TOTAL_QUESTIONS = 10;
+const TOTAL_QUESTIONS = 4;
 
 const initGame = () => {
     questionCounter = 0;
