@@ -41,3 +41,17 @@
 }
 
 /* Question Counter and Points counter styling */
+
+#status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-text {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.number {
+    text-align: center;
+}
