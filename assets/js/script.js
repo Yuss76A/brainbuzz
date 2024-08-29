@@ -1,7 +1,7 @@
 const question = document.getElementById("question");
 const responses = Array.from(document.getElementsByClassName("response-text"));
-const counterText = document.getElementById('counter');
-const totalText = document.getElementById('total');
+const counterText = document.getElementById("counter");
+const totalText = document.getElementById("total");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -284,6 +284,10 @@ responses.forEach((response) => {
             classToApply = "incorrect";
         }
 
+        if (classToApply === "correct") {
+            incrementScore(BONUS_POINTS);
+        }
+
         chosenOption.parentElement.classList.add(classToApply);
 
         setTimeout(function () {
@@ -291,5 +295,12 @@ responses.forEach((response) => {
             loadNewQuestion();
         }, 1000);
     });
-})
+});
+
+
+incrementScore = num => {
+    score += num;
+    totalText.innerText = score;
+};
+
 initGame();
