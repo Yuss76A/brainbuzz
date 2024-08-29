@@ -29,3 +29,13 @@
 .response-text {
     padding: 1.5rem;
 }
+
+/* Correct or Incorrect answers color styling */
+
+.correct {
+    background-color: #90EE90;
+}
+
+.incorrect {
+    background-color: #FF7F7F;
+}
