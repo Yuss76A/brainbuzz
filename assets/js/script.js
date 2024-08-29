@@ -1,5 +1,7 @@
 const question = document.getElementById("question");
 const responses = Array.from(document.getElementsByClassName("response-text"));
+const counterText = document.getElementById('counter');
+const totalText = document.getElementById('total');
 
 let currentQuestion = {};
 let acceptingAnswers = true;
