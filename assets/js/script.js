@@ -254,6 +254,8 @@ const loadNewQuestion = () => {
     }
 
     questionCounter++;
+    counterText.innerText = questionCounter + "/" + TOTAL_QUESTIONS;
+
     const questionIndex = Math.floor(Math.random() * remainingQuestions.length);
     currentQuestion = remainingQuestions[questionIndex];
     question.innerText = currentQuestion.question;
