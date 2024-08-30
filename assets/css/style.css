@@ -132,3 +132,9 @@ input::placeholder {
     box-shadow: 0 1px 14px rgba(86, 185, 235, 0.5);
     transition: background-color 0.3s, transform 0.3s;
 }
+
+.btn:hover,
+.button:hover {
+    background-color: #138496;
+    transform: translateY(-2px);
+}
