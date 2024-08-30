@@ -1,7 +1,7 @@
 /* HTML Structure Styling */
 
 :root {
-    background-color: #ecf5ff;
+
     font-size: 62%;
 }
 
@@ -13,7 +13,9 @@
     margin: 0;
     padding: 0;
     color: #222;
+
 }
+
 
 /* Style the header */
 
