@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
             score: scoreToSave
         });
         localStorage.setItem('highScores', JSON.stringify(scores));
+
+        window.location.href = '/index.html';
+
     };
 
     document.getElementById('scoreForm').addEventListener('submit', saveScore);
