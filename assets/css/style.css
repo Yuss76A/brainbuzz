@@ -138,3 +138,9 @@ input::placeholder {
     background-color: #138496;
     transform: translateY(-2px);
 }
+
+.btn:active,
+.button:active {
+    background-color: #117a8b;
+    transform: translateY(0);
+}
