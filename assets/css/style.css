@@ -80,32 +80,7 @@ h3 {
     display: none;
 }
 
-/* Style Buttons */
-
-.btn {
-    font-size: 1.5rem;
-    padding: 1rem 0;
-    width: 20rem;
-    text-align: center;
-    border: 0.1rem solid #222;
-    margin-bottom: 1rem;
-    text-decoration: none;
-    color: #222;
-    background-color: #ecf5ff;
-}
-
-.btn:hover {
-    cursor: pointer;
-    box-shadow: 0 0.5rem 1.5rem rgba(86, 185, 235, 0.5);
-    transform: translateY(-0.1rem);
-    transition: transform 160ms;
-}
-
-.btn[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-}
+/* Style Response-Container */
 
 .response-container {
     display: flex;
@@ -129,8 +104,8 @@ form {
 input {
     margin-bottom: 16px;
     width: 300px;
-    padding: 24px;
-    font-size: 18px;
+    padding: 50px;
+    font-size: 25px;
     border: #222;
     box-shadow: 0 1px 14px rgba(86, 185, 235, 0.5);
 }
