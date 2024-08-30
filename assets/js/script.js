@@ -250,7 +250,7 @@ const initGame = () => {
 
 const loadNewQuestion = () => {
     if (remainingQuestions.length === 0 || questionCounter >= TOTAL_QUESTIONS) {
-        return window.location.assign('/end.html');
+        return window.location.assign('/final.html');
     }
 
     questionCounter++;
