@@ -250,6 +250,9 @@ const initGame = () => {
 
 const loadNewQuestion = () => {
     if (remainingQuestions.length === 0 || questionCounter >= TOTAL_QUESTIONS) {
+
+        localStorage.setItem("mostRecentScore", score);
+
         return window.location.assign('/final.html');
     }
 
