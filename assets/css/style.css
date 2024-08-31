@@ -62,7 +62,13 @@ h3 {
     max-width: 70rem;
     margin: 0 auto;
     padding: 2rem;
+    border-radius: 20px;
+    background-color: #FFFDD0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .container {
     width: 100%;
