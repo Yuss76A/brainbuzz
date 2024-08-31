@@ -34,11 +34,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Redirect to home page
 
+
         window.location.href = '/index.html';
 
     };
 
+    scoreForm.addEventListener('submit', saveScore);
+
     // Listen for form submission
 
-    document.getElementById('scoreForm').addEventListener('submit', saveScore);
+    saveButton.addEventListener('click', saveScore);
 });
