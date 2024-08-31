@@ -134,6 +134,10 @@ input::placeholder {
     color: #aaa;
 }
 
+.phrase {
+    font-size: 3rem;
+}
+
 /* Style all Buttons */
 
 .btn,
