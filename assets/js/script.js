@@ -1,3 +1,5 @@
+// Retrieve DOM Elements
+
 const question = document.getElementById("question");
 const responses = Array.from(document.getElementsByClassName("response-text"));
 const counterText = document.getElementById("counter");
@@ -8,6 +10,8 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let remainingQuestions = [];
+
+// List of Questions
 
 let questions = [{
         question: 'What is the capital of France?',
@@ -241,12 +245,16 @@ let questions = [{
 const BONUS_POINTS = 15;
 const TOTAL_QUESTIONS = 25;
 
+// Function to initialize the quiz game
+
 const initGame = () => {
     questionCounter = 0;
     score = 0;
     remainingQuestions = [...questions];
     loadNewQuestion();
 };
+
+// Function to load a new question
 
 const loadNewQuestion = () => {
     if (remainingQuestions.length === 0 || questionCounter >= TOTAL_QUESTIONS) {
@@ -256,12 +264,16 @@ const loadNewQuestion = () => {
         return window.location.assign('/final.html');
     }
 
+    // Increment the question counter
+
     questionCounter++;
     counterText.innerText = questionCounter + "/" + TOTAL_QUESTIONS;
 
     const questionIndex = Math.floor(Math.random() * remainingQuestions.length);
     currentQuestion = remainingQuestions[questionIndex];
     question.innerText = currentQuestion.question;
+
+    // Update response options based on the current question
 
     responses.forEach((response) => {
         const number = response.dataset['number'];
@@ -271,6 +283,8 @@ const loadNewQuestion = () => {
     remainingQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
+
+// Adding click event listeners to response elements
 
 responses.forEach((response) => {
     response.addEventListener('click', (event) => {
@@ -287,11 +301,15 @@ responses.forEach((response) => {
             classToApply = "incorrect";
         }
 
+        // Increment score if corre
+
         if (classToApply === "correct") {
             incrementScore(BONUS_POINTS);
         }
 
         chosenOption.parentElement.classList.add(classToApply);
+
+        // Set a timer to remove the class and load the new question
 
         setTimeout(function () {
             chosenOption.parentElement.classList.remove(classToApply);
@@ -300,6 +318,7 @@ responses.forEach((response) => {
     });
 });
 
+// Function to increment the score and update the UI
 
 incrementScore = num => {
     score += num;
