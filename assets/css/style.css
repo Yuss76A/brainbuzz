@@ -96,6 +96,10 @@ h3 {
     display: none;
 }
 
+#introduction {
+    font-size: 3rem;
+}
+
 /* Style Response-Container */
 
 .response-container {
