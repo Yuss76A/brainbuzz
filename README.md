@@ -38,3 +38,6 @@ Welcome to my quiz game project! I've always been fascinated by trivia games and
 * Engaging and entertaining content.
 * Accessibility for all user groups.
 * High score leaderboard.
+
+
+## Design Choices
