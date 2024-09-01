@@ -21,3 +21,11 @@ Welcome to my quiz game project! I've always been fascinated by trivia games and
 * As a player, I desire a site with a compelling and attractive design.
 * As a player, I expect to see a leaderboard showcasing top scores.
 * As a player, I want to challenge my manga knowledge and discover intriguing facts.
+
+
+## Site Objectives:
+
+* To develop a quiz that is enjoyable and captivating for users.
+* To design a visually attractive quiz to attract and retain users.
+* To produce content that amuses and captivates users.
+* To ensure the quiz is accessible to all potential users.
