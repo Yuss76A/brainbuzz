@@ -47,3 +47,31 @@ Welcome to my quiz game project! I've always been fascinated by trivia games and
 [Google Fonts](https://fonts.google.com/ "Google Fonts") 
 
 This project utilizes Google Fonts, specifically the Inter font, to ensure a consistent and cohesive appearance across all pages. By using a single font, we aim to maintain a unified design aesthetic, minimizing distractions and enhancing readability for users. The simplicity of Inter supports a clean and professional look, allowing the content to take center stage.
+
+
+### Colours
+
+A variety of colors has been employed throughout the project to create an engaging and vibrant visual experience. Careful consideration was given to ensure that the colors complement each other, providing a harmonious and soothing aesthetic. This approach was chosen to enhance the overall user experience, allowing the design to be visually appealing without being overwhelming or distracting.
+
+![Colour Palette](docs/screenshots/colours.png)
+
+* #DAA520 - Throughout the project, the color DAA520, known as Goldenrod, has been consistently used as a backdrop along the right and left sides of all pages. This choice creates a warm and inviting frame for the content. In the central section, the background is divided by a softer color that complements the Goldenrod, ensuring a balanced and seamless integration across the entire page. This design choice enhances visual cohesion and draws attention to the central content. However, on the "Best Scores" page, the Goldenrod color extends across the entire page without any dividing, providing a striking and cohesive backdrop for showcasing high scores.
+
+* #FFFDD0 - To provide a harmonious contrast, the color FFFDD0, a soft cream, is used to divide the Goldenrod background in the middle, offering an appealing backdrop for the central content. On the "Best Scores" page, while the Goldenrod spans the entire page, FFFDD0 is featured as the background color for the "best of the best" container in the center, enhancing its prominence and providing a visually pleasing highlight against the Goldenrod.
+
+* #FFFDF5 - The color FFFDF5 was utilized as the background for the answers container, providing a gentle and soft backdrop.
+
+* #222 - The color #222 was selected for the page font, offering a sleek and modern look that ensures readability and complements the overall design.
+
+* #17A2B8 - The color #17A2B8 has been used for all the buttons throughout the project, adding a vibrant and inviting touch that enhances user interaction and complements the site's overall aesthetic.
+
+* #FFFFFF - The color #FFFFFF was used for the fonts inside the buttons, providing clear and crisp contrast against the button color for optimal readability.
+
+* #F0B27A - The color #F0B27A was used as the background color for the option letters A, B, C, D, and E, offering a warm and inviting look that distinguishes the options clearly.
+
+* #90EE90 - The color #90EE90 was used to indicate when a user answers a question correctly, providing a pleasant and positive visual feedback.
+
+* #FF7F7F - The color #FF7F7F was used to highlight when a user answers a question incorrectly, offering a clear and immediate visual cue.
+
+
+* * Note - The colors mentioned—#FFFDD0, #222, #17A2B8, #FFFFFF, #F0B27A, #90EE90, and #FF7F7F—are the most prominent within the project and are clearly visible throughout the design, playing a key role in shaping the user experience. While these are the main colors used, there might be some colors that I inadvertently forgot to mention.
