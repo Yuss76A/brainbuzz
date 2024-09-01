@@ -41,3 +41,9 @@ Welcome to my quiz game project! I've always been fascinated by trivia games and
 
 
 ## Design Choices
+
+### Fonts 
+
+[Google Fonts](https://fonts.google.com/ "Google Fonts") 
+
+This project utilizes Google Fonts, specifically the Inter font, to ensure a consistent and cohesive appearance across all pages. By using a single font, we aim to maintain a unified design aesthetic, minimizing distractions and enhancing readability for users. The simplicity of Inter supports a clean and professional look, allowing the content to take center stage.
