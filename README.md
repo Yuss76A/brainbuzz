@@ -12,3 +12,12 @@ Welcome to my quiz game project! I've always been fascinated by trivia games and
 * Engaging and captivating trivia experience.
 * Visually appealing interface.
 * High score leaderboard to track top performances.
+
+
+## User Narratives:
+
+* As a player, I wish for the quiz to be straightforward and easy to grasp.
+* As a player, I hope the quiz will be enjoyable and engaging.
+* As a player, I desire a site with a compelling and attractive design.
+* As a player, I expect to see a leaderboard showcasing top scores.
+* As a player, I want to challenge my manga knowledge and discover intriguing facts.
