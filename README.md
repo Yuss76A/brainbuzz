@@ -29,3 +29,12 @@ Welcome to my quiz game project! I've always been fascinated by trivia games and
 * To design a visually attractive quiz to attract and retain users.
 * To produce content that amuses and captivates users.
 * To ensure the quiz is accessible to all potential users.
+
+
+## Requirements:
+
+* Simple gameplay.
+* Visually appealing design.
+* Engaging and entertaining content.
+* Accessibility for all user groups.
+* High score leaderboard.
