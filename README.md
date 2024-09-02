@@ -59,7 +59,7 @@ A variety of colors has been employed throughout the project to create an engagi
 
 * #FFFDD0 - To provide a harmonious contrast, the color FFFDD0, a soft cream, is used to divide the Goldenrod background in the middle, offering an appealing backdrop for the central content. On the "Best Scores" page, while the Goldenrod spans the entire page, FFFDD0 is featured as the background color for the "best of the best" container in the center, enhancing its prominence and providing a visually pleasing highlight against the Goldenrod.
 
-* #FFFDF5 - The color FFFDF5 was utilized as the background for the answers container, providing a gentle and soft backdrop.
+* #DFF2D8 - The color #DFF2D8 was utilized as the background for the answers container, providing a gentle and soft backdrop.
 
 * #222 - The color #222 was selected for the page font, offering a sleek and modern look that ensures readability and complements the overall design.
 
@@ -93,3 +93,10 @@ forgot to mention.
 * The favicon was created using two complementary colors and features the name of the quiz along with my initial, "Y."
 
 * The favicon was designed utilizing the tool available at [favicon.io](https://favicon.io/ "favicon.io") .
+
+
+### Quiz Name
+
+![Logo](docs/screenshots/quizname.png)
+
+* I chose the name "Brain Buzz" because it perfectly encapsulates the excitement and stimulation that quizzes provide. The word "Brain" highlights the focus on engaging and challenging your intellectual abilities, while "Buzz" suggests the energizing and lively feeling that comes from learning and discovering new things. Together, "Brain Buzz" conveys the idea of an exhilarating mental workout that's both fun and enriching. It's a name that reflects the dynamic and interactive experience I want to offer to users, keeping their minds active and curious.
