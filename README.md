@@ -142,3 +142,16 @@ forgot to mention.
 * Anticipated Result - Clicking the button should direct the user to the quiz screen, displaying the first question along with the counters.
 * Procedure - Clicked the start button.
 * Outcome - Functioned as intended.
+
+#### Best Scores Button
+
+* Feature Overview - Interactive button designed to open the best scores section.
+* Anticipated Result - Clicking the button should display the best scores screen. Initially, it should not show any scores until the first score is submitted.
+* Procedure - Clicked the open best scores button; no high scores were displayed on initial launch.
+* Outcome - Functioned as intended.
+
+#### Retry Button 
+
+* Feature Overview - Interactive button designed for restarting the quiz.
+* Anticipated Result - Clicking the button should redirect the user directly to the game page to start a new game, with counters reset to zero and questions reloaded.
+* Outcome - Functioned as intended.
