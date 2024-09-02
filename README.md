@@ -177,3 +177,11 @@ forgot to mention.
 * Anticipated Result - Should begin at 0 and increase by 15 for each correct answer provided.
 * Procedure - Start the quiz and verify that the counter increments with correct answers and remains unchanged with incorrect answers.
 * Outcome - Functioned as intende
+
+
+#### Correct or Incorrect Feedback 
+
+* Feature Overview - Provide feedback to inform the user if their chosen answer is right or wrong.
+* Desired Outcome - When an answer is chosen, the container of the correct answer should highlight in green, and red if the answer is incorrect.
+* Testing Procedure - Begin the quiz, choose a correct answer, then choose an incorrect answer.
+* Result - Performed as anticipated.
