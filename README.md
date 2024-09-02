@@ -100,3 +100,10 @@ forgot to mention.
 ![Logo](docs/screenshots/quizname.png)
 
 * I chose the name "Brain Buzz" because it perfectly encapsulates the excitement and stimulation that quizzes provide. The word "Brain" highlights the focus on engaging and challenging your intellectual abilities, while "Buzz" suggests the energizing and lively feeling that comes from learning and discovering new things. Together, "Brain Buzz" conveys the idea of an exhilarating mental workout that's both fun and enriching. It's a name that reflects the dynamic and interactive experience I want to offer to users, keeping their minds active and curious.
+
+
+### First Page 
+
+![First Page](docs/screenshots/initialpage.png)
+
+* The first page of our quiz game is designed to warmly welcome and motivate you to embark on a journey of fun and learning. It features an inspiring message that highlights how enjoyable and rewarding playing a quiz can be. Quizzes not only challenge your knowledge but also provide a fantastic opportunity to discover new facts and have fun along the way. To begin your adventure, simply click the "Play" button, which will take you directly to the start of the game. If you're curious to see how you stack up against the best, the "Best Scores" button will lead you to the "Best of Best" page, where the top scores are showcased. Dive in and let the challenge begin!
