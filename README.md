@@ -107,3 +107,10 @@ forgot to mention.
 ![First Page](docs/screenshots/initialpage.png)
 
 * The first page of our quiz game is designed to warmly welcome and motivate you to embark on a journey of fun and learning. It features an inspiring message that highlights how enjoyable and rewarding playing a quiz can be. Quizzes not only challenge your knowledge but also provide a fantastic opportunity to discover new facts and have fun along the way. To begin your adventure, simply click the "Play" button, which will take you directly to the start of the game. If you're curious to see how you stack up against the best, the "Best Scores" button will lead you to the "Best of Best" page, where the top scores are showcased. Dive in and let the challenge begin!
+
+
+### Game Page
+
+![Game Page](docs/screenshots/secondpage.png)
+
+* The game page is where the excitement truly begins. Here, you'll be presented with a series of questions, each offering five possible answers. As you navigate through the quiz, a question counter keeps track of your progress, allowing you to see how far you've come. Meanwhile, a points counter tallies your correct answers, giving you real-time feedback on your performance. This dynamic setup ensures that you're always aware of your standing, adding an engaging layer of challenge as you strive to increase your score. Get ready to test your knowledge and enjoy the thrill of the quiz!
