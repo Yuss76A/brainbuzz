@@ -185,3 +185,19 @@ forgot to mention.
 * Desired Outcome - When an answer is chosen, the container of the correct answer should highlight in green, and red if the answer is incorrect.
 * Testing Procedure - Begin the quiz, choose a correct answer, then choose an incorrect answer.
 * Result - Performed as anticipated.
+
+
+#### Next Question 
+
+* Feature Overview - After a question is answered, the following question will be displayed.
+* Desired Outcome - After responding to a question or at the initial load, the next question should appear. The question just answered should no longer be among the available questions.
+* Testing Procedure - Initiate the quiz and answer a question. Use the console log to verify that the previously shown question has been removed from the list of available questions.
+* Result - Functioned as expected.
+
+
+#### Final Score Page
+
+* Feature Description - Upon answering 25 questions, the quiz will conclude, and a results window will appear presenting the final score.
+* Desired Outcome - Once all 25 questions have been answered, the quiz should finish, and a results window should display the final score.
+* Testing Procedure - Start and complete the quiz.
+* Result - Performed as expected. The window displaying the score showed the outcomes successfully.
