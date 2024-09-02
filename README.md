@@ -155,3 +155,10 @@ forgot to mention.
 * Feature Overview - Interactive button designed for restarting the quiz.
 * Anticipated Result - Clicking the button should redirect the user directly to the game page to start a new game, with counters reset to zero and questions reloaded.
 * Outcome - Functioned as intended.
+
+#### Home Page Button
+
+* Feature Overview - Interactive button designed to navigate back to the home page.
+* Anticipated Result - Clicking the button should redirect the user to the main page, from which they can choose to start a new game or view the best scores. This button is also available on the best scores page and functions similarly there.
+* Procedure - While on an active page or the best scores page, click the home page button; confirm redirection to the main page and availability of options to start a new game or access the best scores.
+* Outcome - Functioned as intended.
