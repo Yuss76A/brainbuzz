@@ -81,3 +81,15 @@ forgot to mention.
 ### Structure
 
 * The quiz site consists of three main pages, or four if we include the "Best of Best Scores" page. The first page is the welcome page, featuring motivational text that explains the benefits and enjoyment of taking quizzes. This page also contains two buttons: one to start the game and another to view the top scores. Once the "Play" button is pressed, users are taken to the second page, where they can begin answering questions. This page includes a question counter and a score counter. After all questions have been answered, users proceed to the third page. The third page provides humorous text, along with buttons for "Home Page" and "Retry," allowing users to play again and aim to improve their scores. After entering their username and pressing the "Save" button to save their score, users are automatically redirected to the main page. A fourth page is accessible via the "Best Scores" button on the main page.
+
+
+
+## Features
+
+### Favicon
+
+![favicon](assets/favicon/logo.png)
+
+* The favicon was created using two complementary colors and features the name of the quiz along with my initial, "Y."
+
+* The favicon was designed utilizing the tool available at [favicon.io](https://favicon.io/ "favicon.io") .
