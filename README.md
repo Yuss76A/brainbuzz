@@ -74,4 +74,10 @@ A variety of colors has been employed throughout the project to create an engagi
 * #FF7F7F - The color #FF7F7F was used to highlight when a user answers a question incorrectly, offering a clear and immediate visual cue.
 
 
-* * Note - The colors mentioned—#FFFDD0, #222, #17A2B8, #FFFFFF, #F0B27A, #90EE90, and #FF7F7F—are the most prominent within the project and are clearly visible throughout the design, playing a key role in shaping the user experience. While these are the main colors used, there might be some colors that I inadvertently forgot to mention.
+* * Note - The colors mentioned—#FFFDD0, #222, #17A2B8, #FFFFFF, #F0B27A, #90EE90, and #FF7F7F—are the most prominent within the project and are clearly visible throughout the design, playing a key role in shaping the user experience. While these are the main colors used, there might be some colors that I inadvertently 
+forgot to mention.
+
+
+### Structure
+
+* The quiz site consists of three main pages, or four if we include the "Best of Best Scores" page. The first page is the welcome page, featuring motivational text that explains the benefits and enjoyment of taking quizzes. This page also contains two buttons: one to start the game and another to view the top scores. Once the "Play" button is pressed, users are taken to the second page, where they can begin answering questions. This page includes a question counter and a score counter. After all questions have been answered, users proceed to the third page. The third page provides humorous text, along with buttons for "Home Page" and "Retry," allowing users to play again and aim to improve their scores. After entering their username and pressing the "Save" button to save their score, users are automatically redirected to the main page. A fourth page is accessible via the "Best Scores" button on the main page.
