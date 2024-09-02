@@ -201,3 +201,10 @@ forgot to mention.
 * Desired Outcome - Once all 25 questions have been answered, the quiz should finish, and a results window should display the final score.
 * Testing Procedure - Start and complete the quiz.
 * Result - Performed as expected. The window displaying the score showed the outcomes successfully.
+
+
+#### Save Score Button 
+
+* Desired Outcome - After finishing the quiz and viewing the final score, users can click the Save Score button to save their score. Upon saving, they will automatically be redirected to the homepage.
+* Testing Procedure - Complete the quiz to view the score, click the Save Score button, and observe redirection to the homepage.
+* Result - Functioned as expected. The score was saved, and the user was redirected to the homepage seamlessly.
