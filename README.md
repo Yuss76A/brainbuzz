@@ -128,3 +128,17 @@ forgot to mention.
 ![Best Scores Page](docs/screenshots/bestofbest.png)
 
 * The "Best Scores" page, which you can access from the home page by clicking the "Best Scores" button, showcases the top performances within the quiz game. Here, you'll find a leaderboard highlighting the highest scores, inspiring a friendly competition among players. This page serves as a motivating benchmark, challenging you to improve your score and see how you measure up against other quiz enthusiasts. It's an exciting addition that not only acknowledges the best players but also encourages everyone to aim for the top spot.
+
+
+
+### Testing 
+
+
+### Functional Testing
+
+#### Play Button
+
+* Feature Overview - Engaging button designed to initiate the quiz.
+* Anticipated Result - Clicking the button should direct the user to the quiz screen, displaying the first question along with the counters.
+* Procedure - Clicked the start button.
+* Outcome - Functioned as intended.
