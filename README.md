@@ -162,3 +162,18 @@ forgot to mention.
 * Anticipated Result - Clicking the button should redirect the user to the main page, from which they can choose to start a new game or view the best scores. This button is also available on the best scores page and functions similarly there.
 * Procedure - While on an active page or the best scores page, click the home page button; confirm redirection to the main page and availability of options to start a new game or access the best scores.
 * Outcome - Functioned as intended.
+
+#### Question Counter
+
+* Feature Overview - A counter that indicates to the user which question they are currently on.
+* Anticipated Result - Should begin at 1 and increment by 1 after the user answers each question.
+* Procedure - Start the quiz and progress through a few questions.
+* Outcome - Functioned as intended.
+
+
+#### Score Counter
+
+* Feature Overview - A counter that informs the user of their current score.
+* Anticipated Result - Should begin at 0 and increase by 15 for each correct answer provided.
+* Procedure - Start the quiz and verify that the counter increments with correct answers and remains unchanged with incorrect answers.
+* Outcome - Functioned as intende
