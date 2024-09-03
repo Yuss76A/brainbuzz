@@ -220,3 +220,14 @@ forgot to mention.
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
+
+
+### Tools 
+
+* [GitHub](https://github.com/ "GitHub")
+* [Gitpod](https://gitpod.io "Gitpod")
+* [Coolors](http://coolors.co "Coolors")
+* [favicon.io](https://favicon.io/ "favicon.io")
+* [DevTools](https://developer.chrome.com/docs/devtools "DevTools")
+* [W3C Markup Validation](https://validator.w3.org/#validate_by_input "W3C Markup Validation")
+* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation")
