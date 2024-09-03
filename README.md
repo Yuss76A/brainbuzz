@@ -231,3 +231,16 @@ forgot to mention.
 * [DevTools](https://developer.chrome.com/docs/devtools "DevTools")
 * [W3C Markup Validation](https://validator.w3.org/#validate_by_input "W3C Markup Validation")
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation")
+
+
+## Deployment 
+
+The site was deployed using GitHub. The steps for deployment are as follows:
+
+1. Navigate to the GitHub project repository.
+2. Go to the settings tab.
+3. Find the page settings under Code and automation.
+4. Under Build and deployment, select Deploy from branch as the source.
+5. Ensure the main branch is selected and click save.
+6. After completing these steps, the page should be live within a few minutes.
+7. Your live project will be accessible at http://your-username.github.io/your-project-title/.
