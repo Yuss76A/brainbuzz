@@ -28,10 +28,10 @@ body {
 /* Style the header */
 
 h1 {
-    font-size: 5.0rem;
+    font-size: 4.0rem;
     color: #222;
     margin-bottom: 5rem;
-    margin-top: 1.5rem;
+
 
 }
 
@@ -210,4 +210,8 @@ input::placeholder {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.final {
+    max-width: 90%;
 }
