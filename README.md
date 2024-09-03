@@ -205,6 +205,7 @@ forgot to mention.
 
 #### Save Score Button 
 
-* Desired Outcome - After finishing the quiz and viewing the final score, users can click the Save Score button to save their score. Upon saving, they will automatically be redirected to the homepage.
-* Testing Procedure - Complete the quiz to view the score, click the Save Score button, and observe redirection to the homepage.
-* Result - Functioned as expected. The score was saved, and the user was redirected to the homepage seamlessly.
+* Feature Overview - Allows players to record their score by providing a username, then returns them to the main page after a successful submission.
+* Intended Behavior - Successfully submitted scores are stored in session storage and showcased on the "Best of the Best" list. The system maintains only the * top 5 scores, removing the lowest if a new, higher score is submitted. Scores are displayed from highest to lowest. Without a username, score submission is prevented; players can only return to the home screen or start a new game via dedicated buttons.
+* Test Approach - Multiple quiz completions with varying outcomes were performed. Attempts were made to submit scores without entering usernames.
+* Outcome - The feature functioned as designed in all test scenarios.
