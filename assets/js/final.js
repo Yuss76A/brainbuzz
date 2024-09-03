@@ -1,5 +1,5 @@
 // Final Page
-
+const scores = JSON.parse(localStorage.getItem('highScores')) || [];
 document.addEventListener('DOMContentLoaded', () => {
     const userInput = document.getElementById('user');
     const saveButton = document.getElementById('submitscorebtn');
@@ -25,12 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const username = userInput.value;
         const scoreToSave = recentScore;
 
-        const scores = JSON.parse(localStorage.getItem('highScores')) || [];
-        scores.push({
-            username,
-            score: scoreToSave
-        });
+        const submittedScore = {
+            score: scoreToSave,
+            username
+        };
+
+        scores.push(submittedScore);
+        scores.sort((a, b) => b.score - a.score);
+        scores.splice(5);
         localStorage.setItem('highScores', JSON.stringify(scores));
+
+
 
         // Redirect to home page
 
