@@ -219,6 +219,8 @@ forgot to mention.
 
 ### Validator
 
+* The HTML and CSS code have been validated using [W3C Markup Validation](https://validator.w3.org/#validate_by_input "W3C Markup Validation") and [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation"). All code has validated successfully without errors.
+
 #### CSS Testing
 
 * Style CSS file testing :
@@ -247,6 +249,32 @@ forgot to mention.
 * Best Scores HTML result :
 
 ![Best Scores result](docs/screenshots/bestscoreshtml.png)
+
+
+
+### Lighthouse Testing
+
+* Mobile Lighthouse Testing :
+
+![Mobile Lighthouse result](docs/screenshots/mobiletest.png)
+
+* Desktop Lighthouse Testing :
+
+![Desktop Lighthouse result](docs/screenshots/desktoptest.png)
+
+## Note :
+
+* The website underwent Lighthouse testing for both desktop and mobile versions. It achieved high scores across most categories, with a 90% score specifically in the SEO section for both platforms. This demonstrates strong search engine optimization practices.
+
+The 10% deduction in the SEO score is due to minor suggestions:
+
+1. A potentially malformed robots.txt file
+2. Some missing image alt attributes
+3. Absence of a canonical link
+
+These issues don't significantly impact the website's search engine performance or user experience. They're optimization suggestions rather than critical problems. Given the high SEO score for both desktop and mobile, the current implementation successfully meets SEO requirements while leaving room for future fine-tuning if deemed necessary.
+
+
 
 
 
