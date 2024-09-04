@@ -314,6 +314,7 @@ This text acknowledges the issues while reassuring that they don't critically im
 * [Google Fonts](https://fonts.google.com "Google Fonts")
 
 
+
 ### Tools 
 
 * [GitHub](https://github.com/ "GitHub")
@@ -337,3 +338,23 @@ The site was deployed using GitHub. The steps for deployment are as follows:
 5. Ensure the main branch is selected and click save.
 6. After completing these steps, the page should be live within a few minutes.
 7. Your live project will be accessible at http://your-username.github.io/your-project-title/.
+
+
+
+#### Note to Read
+
+* In this project, after encountering initial challenges, I adopted a different approach. Following extensive research, I decided to implement a strategy where I separated each component into distinct pages. This modular approach proved to be more efficient and helped reduce errors.
+
+The project structure is as follows:
+
+The index.html page, styled with style.css, serves as the main entry point.
+
+The game functionality is contained in game.html, which uses play.css for styling and script.js for its interactive elements.
+
+The final.html page, which utilizes styles from style.css, has its JavaScript logic in a separate file named final.js. This separation was implemented after encountering a bug that was hindering the proper functioning of the code.
+
+A fourth page, bestscores.html, was created with its CSS elements integrated into the main style.css file. To maintain consistency and prevent potential issues, its JavaScript functionality was isolated in a separate bestscores.js file.
+
+This modular approach, with separate HTML, CSS, and JavaScript files for different components, emerged as a solution to bugs encountered during the coding process. I found that this method of organizing the project not only helped in reducing mistakes but also proved to be more efficient for development and debugging.
+
+The decision to separate the code into several pages was a direct result of the challenges faced during the project's development. This approach allowed for better organization, easier troubleshooting, and improved overall code management.
