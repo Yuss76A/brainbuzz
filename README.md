@@ -309,6 +309,11 @@ This text acknowledges the issues while reassuring that they don't critically im
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
 
 
+### Libraries & Framework
+
+* [Google Fonts](https://fonts.google.com "Google Fonts")
+
+
 ### Tools 
 
 * [GitHub](https://github.com/ "GitHub")
