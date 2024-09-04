@@ -234,7 +234,7 @@ forgot to mention.
 
 #### HTML Testing
 
-* Index HTML Restul : 
+* Index HTML Result : 
 
 ![Index HTML result](docs/screenshots/indexhtml.png)
 
