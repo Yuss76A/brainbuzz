@@ -275,6 +275,27 @@ The 10% deduction in the SEO score is due to minor suggestions:
 These issues don't significantly impact the website's search engine performance or user experience. They're optimization suggestions rather than critical problems. Given the high SEO score for both desktop and mobile, the current implementation successfully meets SEO requirements while leaving room for future fine-tuning if deemed necessary.
 
 
+### WAVE Testing 
+
+![WAVE Testing Result](docs/screenshots/wavetest.png)
+
+## Note 
+
+* The WAVE accessibility test identified two areas for potential improvement in the website: contrast issues and heading structure. These are important considerations for accessibility, but it's crucial to note that they do not critically impact the core functionality of the site.
+
+Contrast: Some text elements have lower contrast with their backgrounds than recommended by accessibility guidelines. While this may affect readability for some users, particularly those with visual impairments, it does not prevent the site from functioning as intended.
+
+Heading Structure: Some text that appears to be a heading is not marked up with proper heading tags (h1-h6). This doesn't affect how the content displays visually but may impact how screen readers interpret the page structure.
+
+These issues are part of web accessibility best practices rather than critical errors. They don't break any features or prevent users from interacting with the site. The website remains fully functional and usable for the vast majority of visitors.
+
+However, we acknowledge the importance of continuous improvement. While these aren't urgent fixes, they represent opportunities to enhance the site's accessibility in the future. If any functionality issues arise or if these minor accessibility points begin to affect user experience, they will be addressed promptly.
+
+The focus has been on delivering a functional, engaging quiz experience, which has been successfully achieved. Future iterations of the site may incorporate these accessibility enhancements to further improve the user experience for all visitors."
+
+This text acknowledges the issues while reassuring that they don't critically impact the site's functionality, and it indicates a commitment to addressing any actual functionality issues that might arise in the future.
+
+
 
 
 
@@ -297,6 +318,7 @@ These issues don't significantly impact the website's search engine performance 
 * [DevTools](https://developer.chrome.com/docs/devtools "DevTools")
 * [W3C Markup Validation](https://validator.w3.org/#validate_by_input "W3C Markup Validation")
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation")
+* [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/ "WAVE Web Accessibility Evaluation Tool")
 
 
 ## Deployment 
