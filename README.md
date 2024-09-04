@@ -217,6 +217,20 @@ forgot to mention.
 
 
 
+### Validator
+
+#### CSS Testing
+
+* Style CSS file testing :
+
+![Style CSS result](docs/screenshots/stylecss.png)
+
+* Play CSS file testing :
+
+![Play CSS result](docs/screenshots/playcss.png)
+
+
+
 ## Used Technologies 
 
 

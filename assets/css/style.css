@@ -213,10 +213,10 @@ input::placeholder {
 }
 
 
-
+/* Final Page mediq querys max-width 320px*/
 
 /* Responsive styles for small screens */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 412px) {
     :root {
         font-size: 55%;
     }
