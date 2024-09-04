@@ -230,6 +230,25 @@ forgot to mention.
 ![Play CSS result](docs/screenshots/playcss.png)
 
 
+#### HTML Testing
+
+* Index HTML Restul : 
+
+![Index HTML result](docs/screenshots/indexhtml.png)
+
+* Game HTML Result : 
+
+![Game HTML result](docs/screenshots/gamehtml.png)
+
+* Final HTML result :
+
+![Final HTML result](docs/screenshots/finalhtml.png)
+
+* Best Scores HTML result :
+
+![Best Scores result](docs/screenshots/bestscoreshtml.png)
+
+
 
 ## Used Technologies 
 
