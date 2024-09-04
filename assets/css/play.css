@@ -44,10 +44,15 @@
 
 /* Question Counter and Points counter styling */
 
-#status {
+#status-container {
     display: flex;
     justify-content: space-between;
 }
+
+#status-element {
+    text-align: center;
+}
+
 
 .status-text {
     text-align: center;
