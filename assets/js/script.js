@@ -261,7 +261,7 @@ const loadNewQuestion = () => {
 
         localStorage.setItem("mostRecentScore", score);
 
-        return window.location.assign('/final.html');
+        return window.location.assign('final.html');
     }
 
     // Increment the question counter
