@@ -1,10 +1,10 @@
 // Retrieve DOM Elements
-
 const question = document.getElementById("question");
 const responses = Array.from(document.getElementsByClassName("response-text"));
 const counterText = document.getElementById("counter");
 const totalText = document.getElementById("total");
 
+// Variables to manage game state
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
@@ -12,7 +12,6 @@ let questionCounter = 0;
 let remainingQuestions = [];
 
 // List of Questions
-
 let questions = [{
         question: 'What is the capital of France?',
         option1: 'Berlin',
@@ -241,12 +240,13 @@ let questions = [{
 ];
 
 // Fixed Values
-
 const BONUS_POINTS = 15;
 const TOTAL_QUESTIONS = 25;
 
-// Function to initialize the quiz game
-
+/**
+ * Initializes the quiz game by resetting question counters and scores,
+ * and loading the first question.
+ */
 const initGame = () => {
     questionCounter = 0;
     score = 0;
@@ -254,8 +254,10 @@ const initGame = () => {
     loadNewQuestion();
 };
 
-// Function to load a new question
-
+/**
+ * Loads a new question, updates the DOM to reflect the current question and options.
+ * Navigates to the final page when questions are exhausted.
+ */
 const loadNewQuestion = () => {
     if (remainingQuestions.length === 0 || questionCounter >= TOTAL_QUESTIONS) {
 
@@ -265,7 +267,6 @@ const loadNewQuestion = () => {
     }
 
     // Increment the question counter
-
     questionCounter++;
     counterText.innerText = questionCounter + "/" + TOTAL_QUESTIONS;
 
@@ -274,7 +275,6 @@ const loadNewQuestion = () => {
     question.innerText = currentQuestion.question;
 
     // Update response options based on the current question
-
     responses.forEach((response) => {
         const number = response.dataset['number'];
         response.innerText = currentQuestion['option' + number];
@@ -285,7 +285,6 @@ const loadNewQuestion = () => {
 };
 
 // Adding click event listeners to response elements
-
 responses.forEach((response) => {
     response.addEventListener('click', (event) => {
         if (!acceptingAnswers) return;
@@ -302,7 +301,6 @@ responses.forEach((response) => {
         }
 
         // Increment score if corre
-
         if (classToApply === "correct") {
             incrementScore(BONUS_POINTS);
         }
@@ -310,7 +308,6 @@ responses.forEach((response) => {
         chosenOption.parentElement.classList.add(classToApply);
 
         // Set a timer to remove the class and load the new question
-
         setTimeout(function () {
             chosenOption.parentElement.classList.remove(classToApply);
             loadNewQuestion();
@@ -318,11 +315,14 @@ responses.forEach((response) => {
     });
 });
 
-// Function to increment the score and update the UI
-
+/**
+ * Increments the score by a specified number and updates the UI.
+ * @param {number} num - The number of points to add to the score.
+ */
 incrementScore = num => {
     score += num;
     totalText.innerText = score;
 };
 
+// Initialize the game
 initGame();
