@@ -1,5 +1,11 @@
+/**
+ * Handles the DOMContentLoaded event to load and display high scores.
+ * Retrieves high scores from localStorage and displays them in the scoreList element.
+ */
 document.addEventListener('DOMContentLoaded', () => {
     const scoreList = document.getElementById("scoreList");
+
+    // Retrieve high scores from localStorage or initialize as empty if not available
     const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
     console.log('Retrieved scores:', highScores);
@@ -17,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         scoreList.innerHTML = "<li>No high scores yet!</li>";
     }
 
-    // Verificación adicional
+    // Additional verification to log if scoreList is unexpectedly empty
     if (!scoreList.innerHTML) {
         console.log('scoreList is empty after processing');
     }
