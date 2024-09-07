@@ -136,6 +136,31 @@ forgot to mention.
 
 
 
+#### Wireframes
+
+## Desktop 
+
+![Desktop Home Page](docs/wireframes/desktop1.png)
+![Desktop Game page](docs/wireframes/desktop2.png)
+![Desktop Final page](docs/wireframes/desktop3.png)
+![desktop Best of Best page](docs/wireframes/desktop4.png)
+
+
+## Mobile
+
+![Mobile Home and Game page](docs/wireframes/mobile1.png)
+![Final and Best of Best page](docs/wireframes/mobile2.png)
+
+
+## Ipad
+
+![Ipad Home Page](docs/wireframes/ipad1.png)
+![Ipad Game Page](docs/wireframes/ipad2.png)
+![Ipad Final Page](docs/wireframes/ipad3.png)
+![Ipad Best of Best page](docs/wireframes/ipad4.png)
+
+
+
 ### Testing 
 
 
