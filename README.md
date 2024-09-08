@@ -383,3 +383,17 @@ A fourth page, bestscores.html, was created with its CSS elements integrated int
 This modular approach, with separate HTML, CSS, and JavaScript files for different components, emerged as a solution to bugs encountered during the coding process. I found that this method of organizing the project not only helped in reducing mistakes but also proved to be more efficient for development and debugging.
 
 The decision to separate the code into several pages was a direct result of the challenges faced during the project's development. This approach allowed for better organization, easier troubleshooting, and improved overall code management.
+
+
+
+#### Credits
+
+- [Fatme Ali](https://www.linkedin.com/in/fatme-ali-795233160/) My deepest thanks to my amazing wife, Fatme Ali. Her unwavering support and encouragement were crucial throughout this project. Her strength and positivity made every hurdle surmountable, turning challenges into opportunities for growth.
+
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) I'm deeply grateful to my mentor for her invaluable guidance and constant support. Her wisdom and motivation have been instrumental in shaping this project and my growth. Her mentorship has been a cornerstone of this journey, inspiring me to reach new heights.
+
+- [Code Institute](https://codeinstitute.net/global/) I extend my sincere gratitude to the Code Institute and its vibrant Slack community of tutors and mentors. Your continuous assistance, expert advice, and motivational support have been crucial to my educational progress and the successful completion of this project. Your dedication has truly enriched my learning experience.
+
+- [GitHub](https://github.com/) A heartfelt nod to the minds behind GitHub. Their platform has been a game-changer, opening doors to a world of collaborative coding and continuous learning. It's more than just a tool; it's been a catalyst for growth in my development journey.
+
+- The general idea came from https://www.youtube.com/@JamesQQuick.
