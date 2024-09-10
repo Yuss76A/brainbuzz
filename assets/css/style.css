@@ -65,7 +65,8 @@ h3 {
     border-radius: 20px;
     background-color: #FFFDD0;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+
 }
 
 .flex-column {
@@ -284,31 +285,37 @@ input::placeholder {
     }
 }
 
+/* Media Query for landscape view */
+
 @media screen and (orientation: landscape) {
     body {
         background-color: goldenrod;
-
         flex-direction: column;
-
+        height: auto;
+        min-height: 100vh;
     }
 
     .container {
         width: 90vw;
         height: auto;
+        padding: 1rem;
+        overflow-y: auto;
 
     }
 
-    #status-container {
-        flex-direction: row;
-        gap: 1rem;
-
-    }
-}
-
-@media screen and (orientation: landscape) {
     h1 {
-        margin: 0;
+        font-size: 3rem;
+        margin: 1rem 0;
         text-align: center;
     }
 
+    #introduction {
+        font-size: 1.5rem;
+
+    }
+
+    .btn {
+        font-size: 1.7rem;
+        padding: 0.8rem 1.6rem;
+    }
 }

@@ -302,6 +302,10 @@ The 10% deduction in the SEO score is due to minor suggestions:
 These issues don't significantly impact the website's search engine performance or user experience. They're optimization suggestions rather than critical problems. Given the high SEO score for both desktop and mobile, the current implementation successfully meets SEO requirements while leaving room for future fine-tuning if deemed necessary.
 
 
+
+
+
+
 ### WAVE Testing 
 
 ![WAVE Testing Result](docs/screenshots/wavetest.png)
