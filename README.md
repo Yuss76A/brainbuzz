@@ -303,7 +303,52 @@ These issues don't significantly impact the website's search engine performance 
 
 
 
+#### JavaScript Testing
 
+- The JavaScript code has been validated using [JSHint](https://jshint.com/ "JSHint") and produced the following results.
+
+* script.js and final.js files :
+
+![JSHint result](docs/screenshots/scriptjs.png)
+![JSHint result](docs/screenshots/finaljs.png)
+
+- JSHint Warnings and Code Metrics Explained
+
+When you run JSHint on this project, you might see warnings about ES6 features. Don't worry – these aren't errors in your code. They just show that we're using modern JavaScript.
+
+These warnings mention things like 'const', 'let', arrow functions (=>), and the spread operator (...). All of these are part of ES6, which is a newer version of JavaScript.
+
+JSHint is telling us that we're using these new features. If you're building for modern browsers or recent versions of Node.js, you can ignore these warnings. Your code will work fine.
+
+Important Note: Despite these warnings, the code is functioning correctly and as intended. There's no need for intervention or changes based on these JSHint warnings alone. The code is working well in its current state.
+
+* bestscores.js file :
+
+![JSHint result](docs/screenshots/bestscoresjs.png)
+
+-When running JSHint on the project files, several warnings may appear:
+
+"Expected an identifier and instead saw ''":
+This typically occurs when CSS comments (/ */) are interpreted as JavaScript.
+
+"Expected an assignment or function call and instead saw an expression" and "Missing semicolon":
+These are also related to CSS being parsed as JavaScript.
+
+"Unbegun comment":
+This might indicate a malformed comment in a CSS file.
+
+ES6-related warnings:
+
+"'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')"
+"'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)"
+"'template literal syntax' is only available in ES6 (use 'esversion: 6')" These indicate the use of modern JavaScript features.
+Most of these warnings are due to JSHint attempting to parse CSS as JavaScript, which it's not designed to do. For the JavaScript-specific warnings, they're flagging the use of ES6 features.
+
+Important Note: The code is functioning correctly despite these warnings. No intervention is needed, and these warnings do not affect the code's performance or functionality.
+
+* Separate note for both texts:
+
+Due to time constraints, it has been decided not to investigate these warnings further. The current code is working as intended, if more time was available, some research into fixing this issues would be done.
 
 
 ### WAVE Testing 
