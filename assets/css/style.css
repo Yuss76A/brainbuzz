@@ -233,7 +233,7 @@ input::placeholder {
     .container {
         padding: 1rem;
         height: auto;
-        min-height: 100vh;
+        min-height: 70vh;
     }
 
     #final {
