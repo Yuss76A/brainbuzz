@@ -464,4 +464,4 @@ The decision to separate the code into several pages was a direct result of the 
 
 - [GitHub](https://github.com/) A heartfelt nod to the minds behind GitHub. Their platform has been a game-changer, opening doors to a world of collaborative coding and continuous learning. It's more than just a tool; it's been a catalyst for growth in my development journey.
 
--The concept of understanding how JavaScript code functions in a quiz game stems from https://www.youtube.com/@JamesQQuick.
+- The concept of understanding how JavaScript code functions in a quiz game stems from https://www.youtube.com/@JamesQQuick.
