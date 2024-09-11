@@ -60,8 +60,6 @@ A variety of colors has been employed throughout the project to create an engagi
 
 ![Colour Palette](docs/screenshots/colours.png)
 
-* #DAA520 - Throughout the project, the color DAA520, known as Goldenrod, has been consistently used as a backdrop along the right and left sides of all pages. This choice creates a warm and inviting frame for the content. In the central section, the background is divided by a softer color that complements the Goldenrod, ensuring a balanced and seamless integration across the entire page. This design choice enhances visual cohesion and draws attention to the central content. However, on the "Best Scores" page, the Goldenrod color extends across the entire page without any dividing, providing a striking and cohesive backdrop for showcasing high scores.
-
 * #FFFDD0 - To provide a harmonious contrast, the color FFFDD0, a soft cream, is used to divide the Goldenrod background in the middle, offering an appealing backdrop for the central content. On the "Best Scores" page, while the Goldenrod spans the entire page, FFFDD0 is featured as the background color for the "best of the best" container in the center, enhancing its prominence and providing a visually pleasing highlight against the Goldenrod.
 
 * #DFF2D8 - The color #DFF2D8 was utilized as the background for the answers container, providing a gentle and soft backdrop.
@@ -450,7 +448,7 @@ The decision to separate the code into several pages was a direct result of the 
 
 ### Bugs
 
-* I attempted to find bugs but did not encounter any. I tested all the buttons and features that I had planned for the game, and they all function as expected. I acknowledge that the page is not perfect and there is certainly room for improvement. However, due to time constraints, it will remain in its current state for now. If people enjoy the game and feedback is positive, the game can be expanded and improved by adding more sections.
+* I attempted to find bugs but did not encounter any. I tested all the buttons and features that I had planned for the game, and they all function as expected. I acknowledge that the page is not perfect and there is certainly room for improvement. However, due to time constraints, it will remain in its current state for now. If people enjoy the game and feedback is positive, the game can be expanded and improved by adding more sections.If any bugs do arise, they will be addressed and fixed immediately.
 
 
 
