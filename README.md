@@ -140,10 +140,10 @@ forgot to mention.
 
 ## Desktop 
 
-![Desktop Home Page](docs/wireframes/desktop1.png)
-![Desktop Game page](docs/wireframes/desktop2.png)
-![Desktop Final page](docs/wireframes/desktop3.png)
-![desktop Best of Best page](docs/wireframes/desktop4.png)
+![Desktop Home Page](docs/wireframes/introductionpage.png)
+![Desktop Game page](docs/wireframes/playgame.png)
+![Desktop Final page](docs/wireframes/pointspage.png)
+![desktop Best of Best page](docs/wireframes/bestofbestpage.png)
 
 
 ## Mobile
@@ -154,10 +154,10 @@ forgot to mention.
 
 ## Ipad
 
-![Ipad Home Page](docs/wireframes/ipad1.png)
-![Ipad Game Page](docs/wireframes/ipad2.png)
-![Ipad Final Page](docs/wireframes/ipad3.png)
-![Ipad Best of Best page](docs/wireframes/ipad4.png)
+![Ipad Home Page](docs/wireframes/page1.png)
+![Ipad Game Page](docs/wireframes/page2.png)
+![Ipad Final Page](docs/wireframes/page3.png)
+![Ipad Best of Best page](docs/wireframes/page4.png)
 
 
 
