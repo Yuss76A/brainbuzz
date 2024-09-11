@@ -30,6 +30,7 @@
 .response-text {
     padding: 1.5rem;
     width: 100%;
+    text-align: center;
 }
 
 /* Correct or Incorrect answers color styling */
