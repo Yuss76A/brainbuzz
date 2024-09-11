@@ -138,6 +138,8 @@ forgot to mention.
 
 - The wireframes were created using [Balsamic](https://balsamiq.com "Balsamic").
 
+- These are the initial wireframes I developed prior to starting the project. Although there were some minor changes during the process, I strived to maintain and closely follow my initial vision.
+
 ## Desktop 
 
 ![Desktop Home Page](docs/wireframes/introductionpage.png)
