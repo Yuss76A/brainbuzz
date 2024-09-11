@@ -109,28 +109,28 @@ forgot to mention.
 
 ### First Page 
 
-![First Page](docs/screenshots/home.png)
+![First Page](docs/screenshots/homepage.png)
 
 * The first page of our quiz game is designed to warmly welcome and motivate you to embark on a journey of fun and learning. It features an inspiring message that highlights how enjoyable and rewarding playing a quiz can be. Quizzes not only challenge your knowledge but also provide a fantastic opportunity to discover new facts and have fun along the way. To begin your adventure, simply click the "Play" button, which will take you directly to the start of the game. If you're curious to see how you stack up against the best, the "Best Scores" button will lead you to the "Best of Best" page, where the top scores are showcased. Dive in and let the challenge begin!
 
 
 ### Game Page
 
-![Game Page](docs/screenshots/game.png)
+![Game Page](docs/screenshots/playpage.png)
 
 * The game page is where the excitement truly begins. Here, you'll be presented with a series of questions, each offering five possible answers. As you navigate through the quiz, a question counter keeps track of your progress, allowing you to see how far you've come. Meanwhile, a points counter tallies your correct answers, giving you real-time feedback on your performance. This dynamic setup ensures that you're always aware of your standing, adding an engaging layer of challenge as you strive to increase your score. Get ready to test your knowledge and enjoy the thrill of the quiz!
 
 
 ### Scores Page
 
-![Scores Page](docs/screenshots/score.png)
+![Scores Page](docs/screenshots/scorepage.png)
 
 * Upon completing the quiz, you'll be directed to the scores page, where you can view your results and submit your score with the "Save" button. This page offers a clear overview of how well you've performed, celebrating your achievements and encouraging you to aim even higher. Once you submit your score, you'll be automatically redirected to the home page, making it easy to start a new session or explore other features. Additionally, the page provides two convenient buttons: one to return to the home page and another to play again. Whether you're eager to take on the quiz once more or simply want to reflect on your performance, the scores page serves as a perfect culmination of your quiz experience.
 
 
 ### Best Scores Page
 
-![Best Scores Page](docs/screenshots/bestofbest.png)
+![Best Scores Page](docs/screenshots/bestscorespage.png)
 
 * The "Best Scores" page, which you can access from the home page by clicking the "Best Scores" button, showcases the top performances within the quiz game. Here, you'll find a leaderboard highlighting the highest scores, inspiring a friendly competition among players. This page serves as a motivating benchmark, challenging you to improve your score and see how you measure up against other quiz enthusiasts. It's an exciting addition that not only acknowledges the best players but also encourages everyone to aim for the top spot.
 
