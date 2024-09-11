@@ -8,7 +8,10 @@
 /* Body Styling */
 
 body {
-    background-color: goldenrod;
+    background-image: url(../images/quizbrackground.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +46,7 @@ h2 {
     font-size: 4rem;
     margin-bottom: 4rem;
     font-weight: 650;
+    text-align: center;
 }
 
 h3 {
