@@ -448,6 +448,11 @@ The decision to separate the code into several pages was a direct result of the 
 - The background image was created using an AI image generator. It visually represents a quiz game, utilizing pastel colors that harmonize beautifully with the color scheme of the question and answer container on the page.
 
 
+### Bugs
+
+* I attempted to find bugs but did not encounter any. I tested all the buttons and features that I had planned for the game, and they all function as expected. I acknowledge that the page is not perfect and there is certainly room for improvement. However, due to time constraints, it will remain in its current state for now. If people enjoy the game and feedback is positive, the game can be expanded and improved by adding more sections.
+
+
 
 #### Credits
 
