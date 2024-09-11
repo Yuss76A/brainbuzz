@@ -437,6 +437,15 @@ This modular approach, with separate HTML, CSS, and JavaScript files for differe
 The decision to separate the code into several pages was a direct result of the challenges faced during the project's development. This approach allowed for better organization, easier troubleshooting, and improved overall code management.
 
 
+### Images
+
+- Used Image :
+
+![Background image](assets/images/quizbrackground.jpeg)
+
+- The background image was created using an AI image generator. It visually represents a quiz game, utilizing pastel colors that harmonize beautifully with the color scheme of the question and answer container on the page.
+
+
 
 #### Credits
 
